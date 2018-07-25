@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Student Gradebook</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <form id="submission-form">
+        Name:
+        <input type="text" name="name" placeholder="Enter Name" required> Grade:
+        <input type="number" name="grade" placeholder="Enter Grade" required>
+        <button id="submit-btn" type="submit">Submit</button>
+    </form>
+
+    <table id="grade-table">
+        <thead>
+            <tr>
+                <th>
+                    <input type="checkbox" id="selectall">
+                </th>
+                <th class="sort">Name</th>
+                <th class="sort">Grade</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+        <tfoot>
+            <tr>
+            <th>
+                <i class="fas fa-trash-alt" title="delete-selected" id="delete-selected" type="reset"></i>
+            </th>
+            <th></th>
+            <th>Avg = </th>
+        </tr>            
+        </tfoot>
+    </table>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

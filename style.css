@@ -1,0 +1,46 @@
+#submission-form{
+    text-align:center;
+    margin: 20px 0;
+}
+* {
+    box-sizing: border-box;
+}
+#submit-btn{
+    border: 1px solid white;
+    border-radius: 10%;
+    background-color:black;
+    color:white;
+}
+
+#grade-table{
+   width:100%;
+   border-spacing:0;
+   text-align: center;
+}
+th{
+    border:1px solid black;
+    padding: 0 10%;
+}
+#selectall{
+    cursor: pointer;
+}
+.sort{
+    cursor: pointer;
+}
+.fa-trash-alt{
+    color: red;
+    cursor:pointer;
+}
+
+.grade-fail{
+    background-color:red;
+}
+.grade-pass{
+    background-color: green;
+}
+tbody td{
+    border: 1px solid black;
+}
+.selectrow{
+    cursor: pointer;
+}
